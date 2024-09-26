@@ -15,4 +15,4 @@ def bereken_totaalprijs(aantallen, prijzen):
     return np.sum(uitgaven)
 
 totaalprijs = bereken_totaalprijs(aantallen_fruit, prijzen_per_stuk)
-print(totaalprijs)
+print(str(totaalprijs))
