@@ -9,7 +9,7 @@ input_sentence = input("Typ een simpele zin in de tegenwoordige of verleden tijd
 weights = np.random.rand(10)
 print(str(weights))
 
-activation_multiplier = 0.48029800500000003
+activation_multiplier = 0.43226820450000003
 
 def evaluate_sentence(input_sentence, weights):
     input_value = len(input_sentence)

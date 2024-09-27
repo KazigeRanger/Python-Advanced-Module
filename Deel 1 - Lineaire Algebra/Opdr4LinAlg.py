@@ -20,7 +20,7 @@ def bereken_totaalprijs(aantallen, prijzen):
     #     emptyList.append(np.float64(dotProduct[i]))
     #     print(str(dotProduct[i]) + " " + str(type(dotProduct[i])))
     # return emptyList
-    return np.dot(aantallen, prijzen)
+    return np.dot(aantallen, prijzen).tolist()
 
 
 totaalprijs_per_persoon = bereken_totaalprijs(aantallen_fruit, prijzen_per_stuk)
